@@ -1,0 +1,55 @@
+*{
+    color: white;
+}
+
+.todoBox{
+    width: 500px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 0px 0px 5px white;
+}
+
+.todoTitle{
+    text-decoration: none;
+    width: 50%;
+    text-align: left;
+}
+
+.todoTitle > div{
+    width: 150px;
+    height: 25px;
+    overflow: hidden;
+}
+
+button, .editBtn{
+    margin: 0 5px 0 5px;
+    border: none;
+    border-bottom: 1px solid red;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+}
+
+button:hover, .editBtn:hover{
+    color: #90AACB;
+}
+
+input{
+    border: none;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    width: 300px;
+    color: black;
+}
+
+.completed{
+    color: green;
+    font-size: 14px;
+    margin: 0px 20px 0 20px;
+}
